@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+     font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+    background-image: url("Cake_Images/cake_1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    color: white;
+    padding: 30px;
+}
+
+.hero {
+    padding: 80px 20px;
+    background: #fff0f5;
+}
+
+.hero h2 {
+    color: #d63384;
+}
+
+button {
+    background: #ff1493;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #d63384;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cakes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cake-card {
+    align-items: center;
+    background: #f2f6ee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.prices {
+    padding: 50px;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th {
+    background: #d63384;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+nav {
+    background-color: #d63384;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.contacts {
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    background: hsl(340, 100%, 97%);
+    align-items: center;
+    width: 45%;
+}
