@@ -72,6 +72,7 @@ table {
     margin: auto;
     border-collapse: collapse;
     width: 70%;
+    background: #d63384;
 }
 
 th {
