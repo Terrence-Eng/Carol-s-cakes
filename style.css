@@ -79,8 +79,8 @@ th {
     color: white;
 }
 
-th,
 td {
+    background: #e98fad;
     border: 1px solid #ddd;
     padding: 12px;
 }
